@@ -46,6 +46,8 @@
     "test:unit": "nyc --reporter=text-summary --reporter=cobertura --report-dir=reports/unit  mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./reports/unit/junit-test-results.xml",
     "build": "tsc",
     "compile": "tsc -b",
+    "benchmark:one": "echo one",
+    "benchmark:two": "echo two",
     "patch": "npm run make && npm version patch && git push && npm publish",
     "minor": "npm run make && npm version minor && git push && npm publish"
   },
