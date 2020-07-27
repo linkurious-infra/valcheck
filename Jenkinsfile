@@ -6,4 +6,5 @@ nodeJob {
 
   runNpmPublish = true
   runBenchTests = true
+  createGitTag = true
 }
