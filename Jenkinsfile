@@ -5,4 +5,6 @@ nodeJob {
   projectName = "linkurious/valcheck"
 
   runNpmPublish = true
+  runBenchTests = true
+  createGitTag = true
 }
